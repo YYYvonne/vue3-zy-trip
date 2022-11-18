@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    //json文件不能写注释，但是vscode对这个文件单独处理才可以的
+    // "target": "es5", //vite在dev环境依赖es6语法，打包时用es5，所以注释掉这个
+    "module": "esnext",
+    "baseUrl": "./",
+    "moduleResolution": "node",
+    "paths": {
+      "@/*": [
+        "src/*"
+      ]
+    },
+    "lib": [
+      "esnext",
+      "dom",
+      "dom.iterable",
+      "scripthost"
+    ]
+  },
+  "vueCompilerOptions": {
+    "experimentalDisableTemplateSupport": true
+  }
+}
