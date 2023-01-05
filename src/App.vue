@@ -9,7 +9,7 @@
 </template>
 
 <script setup>
-import TabBar from '@/components/tab-bar/tab-bar.vue'
+import TabBar from '@/components/tab-bar/tabBar.vue'
 
 </script>
 

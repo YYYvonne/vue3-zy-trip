@@ -2,7 +2,7 @@
   <div class="home-nav-bar">
     <div class="navBar">
         <span class="title">
-            同程旅途
+            携手旅途
         </span>
     </div>
   </div>
